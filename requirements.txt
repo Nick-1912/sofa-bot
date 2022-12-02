@@ -1,0 +1,4 @@
+selenium~=4.6.1
+psycopg2~=2.9.5
+PyYAML~=6.0
+undetected_chromedriver

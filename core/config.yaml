@@ -1,0 +1,33 @@
+parsing methods:
+  selenium:
+    claim variants: ['usual', 'normal', 'selenium']
+    description: 'Parsing using Selenium. Detected by anti-bot systems'
+    headless: False
+    fullscreen: False
+    window width: 1500
+    window height: 900
+  undetected selenium:
+    claim variants: ['undetected', 'undetected selenium']
+    description: 'Parsing using Selenium. Hard to detect by anti-bot systems'
+    fullscreen: False
+    window width: 1200
+    window height: 600
+    use proxy: False
+    proxy username: '-'
+    proxy password: '-'
+    proxy ip: '-'
+    proxy port: '-'
+    browser folder: 'browser_folder'
+
+sports: ['football', 'basketball', 'tennis', 'table-tennis', 'ice-hockey', 'esports', 'handball',
+         'volleyball', 'baseball', 'american-football', 'motorsport', 'cricket', 'rugby', 'darts',
+         'snooker', 'futsal', 'badminton', 'aussie-rules', 'beach-volley', 'waterpolo', 'floorball',
+         'bandy']
+tries: 3
+waits:
+  wait for sport page: 15
+
+database:
+  database: '-'
+  user: '-'
+  password: '-'
