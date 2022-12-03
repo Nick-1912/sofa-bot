@@ -6,4 +6,8 @@ to do:
 1. terminal interface
 2. wrap by PyVirtualDisplay
 
-time spent: 7-8h
+time spent: 
+
+7-8h
+
++1-2h (add API method)

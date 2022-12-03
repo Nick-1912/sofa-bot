@@ -12,13 +12,22 @@ parsing methods:
     fullscreen: False
     window width: 1200
     window height: 600
-    use proxy: False
-    proxy username: '-'
-    proxy password: '-'
-    proxy ip: '-'
-    proxy port: '-'
+    use proxy: True
+    proxy username: 'hgvueehe-1'
+    proxy password: 'jer1l82sel82'
+    proxy ip: 'p.webshare.io'
+    proxy port: '80'
     browser folder: 'browser_folder'
-
+  open api:
+    claim variants: [ 'api', 'open api' ]
+    description: 'Parsing using open API.'
+    use proxy: True
+    parallel: True
+    parallel count: 10
+    proxy username: 'hgvueehe-1'
+    proxy password: 'jer1l82sel82'
+    proxy ip: 'p.webshare.io'
+    proxy port: '80'
 sports: ['football', 'basketball', 'tennis', 'table-tennis', 'ice-hockey', 'esports', 'handball',
          'volleyball', 'baseball', 'american-football', 'motorsport', 'cricket', 'rugby', 'darts',
          'snooker', 'futsal', 'badminton', 'aussie-rules', 'beach-volley', 'waterpolo', 'floorball',
@@ -28,6 +37,6 @@ waits:
   wait for sport page: 15
 
 database:
-  database: '-'
-  user: '-'
-  password: '-'
+  database: 'dbname'
+  user: 'postgres'
+  password: '123'

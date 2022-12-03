@@ -25,6 +25,12 @@ class UndetectedSeleniumConfig(MainConfig):
         return temp_config['parsing methods']['undetected selenium']
 
 
+class OpenApiConfig(MainConfig):
+    def __new__(cls, *args, **kwargs):
+        temp_config = MainConfig()
+        return temp_config['parsing methods']['open api']
+
+
 class DatabaseConfig(MainConfig):
     def __new__(cls, *args, **kwargs):
         temp_config = MainConfig()
